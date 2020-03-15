@@ -3,7 +3,7 @@
 	}
 
 body {
-	background-image: url("/images/vista.jpg");
+	background-image: url("./images/vista.jpg");
 	background-position: center;
 	background-size: cover;
 	}
