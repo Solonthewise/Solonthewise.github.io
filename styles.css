@@ -15,7 +15,7 @@ header {
 	width: 100%;
 	padding-top: 0;
 	position: fixed;
-	background-color: rgb(117, 123, 177);
+	background-color: rgb(113, 115, 141);
 	background-position: center;
 	z-index: 1;
 	top: 0;
@@ -27,7 +27,7 @@ header {
 	display: inline-block;
 	text-transform: uppercase;
 	color: white;
-	text-shadow: 2px 2px black;
+	text-shadow: 2px 2px 2px black;
 	padding: 10px;
 	width: max-content;
 	margin: 11px;
@@ -36,7 +36,7 @@ header {
 	}
 
 .menu:hover {
-	text-shadow: 1px 1px black;
+	text-shadow: 1px 1px 1px black;
 	background: transparent;
 }
 
