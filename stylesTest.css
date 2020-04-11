@@ -8,6 +8,7 @@ body {
 	}
 
 header {
+  white-space: nowrap;
 	height: 100px;
 	width: 100%;
 	padding-top: 0;
@@ -52,18 +53,45 @@ header {
 }
 	
 main {
-	background-color: rgba(255,255,255,.9);
-	width: 500px;
-	margin: 0 auto;
-	margin-top: 150px;
-	padding: 75px;
-	padding-top: 30px;
-	position: relative;
+	display: grid;
+  grid-template-columns: 100%;
+  grid-auto-rows: minmax(10em, max-content);
 	}
+
+#one {
+  display: flex;
+  background: rgb(35,0,91);
+background: linear-gradient(90deg, rgba(35,0,91,1) 0%, rgba(110,33,200,1) 41%, rgba(126,182,255,1) 100%);
+  background-size:  400% 400%;
+  animation: gradient 10s ease infinite;
+  height: 35em;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  50% {
+    background-position: 100%;
+  }
+  100% {
+    background-position: 0%;
+  }
+}
+
+#one p {
+  color: white;
+  font-size: 5em;
+}
+
+#two {
+  background: white;
+}
 
 a {
 	text-decoration: none;
 }
-
 
 
